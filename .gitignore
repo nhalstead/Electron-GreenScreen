@@ -1,4 +1,4 @@
 
 *.bak
-electronTesting/node_modules/*
-electronTesting/WindowApp-win32-x64/*
+project_files/node_modules/*
+project_files/WindowApp-win32-x64/*
