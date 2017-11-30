@@ -1,11 +1,17 @@
 {
-  "name": "electron-testing",
-  "version": "0.0.1",
+  "name": "electron-greenscreen",
+  "version": "0.0.2",
   "description": "Makes a Window to display the HTML Page.",
   "main": "main.js",
   "scripts": {
     "start": ".\\node_modules\\.bin\\electron .",
-	"build": "electron-packager . WindowApp"
+	"build": "electron-packager . GreenScreen --icon icon.ico"
+  },
+  "build": {
+    "appId": "GreenScreen",
+    "directories": {
+      "output": "packages"
+    }
   },
   "author": "Noah Halstead <nhalstead00@gmail.com>",
   "dependencies": {
