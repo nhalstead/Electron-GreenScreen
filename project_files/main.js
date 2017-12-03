@@ -38,6 +38,7 @@ function createWindow () {
 		minimizable: true,
 		maximizable: false, 
 		closable: true,
+		alwaysOnTop: true
 	});
   
   // and load the index.html of the app.
