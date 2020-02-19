@@ -16,7 +16,7 @@
   "author": "Noah Halstead <nhalstead00@gmail.com>",
   "dependencies": {
     "electron": "^1.7.9",
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.14.11"
   },
   "devDependencies": {
     "electron-packager": "^10.1.0"
